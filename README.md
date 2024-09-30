@@ -1,4 +1,4 @@
-## OCR Evasion (WeChat)
+# OCR Evasion (WeChat)
 
 ![demo](demo.png)
 
