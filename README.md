@@ -1,5 +1,6 @@
 ## OCR Evasion (WeChat)
 
+![demo](demo.png)
 
 #### Quick Start
 
@@ -15,12 +16,13 @@ $ streamlit run streamlit_app.py
 
 ```
 $ docker run -p 8501:8501 wuhanstudio/ocr-evasion
-```
-
-```
-$ docker build -t wuhanstudio/ocr-evasion .
-$ docker run -p 8501:8501 wuhanstudio/ocr-evasion
   You can now view your Streamlit app in your browser.
 
   URL: http://127.0.0.1:8501
+```
+
+Alternatively, you may build the Docker image by yourself.
+
+```
+$ docker build -t wuhanstudio/ocr-evasion .
 ```
